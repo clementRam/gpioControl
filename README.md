@@ -3,13 +3,13 @@
 <h5>Just have to edit index.php, then add label and gpio number:</h5>
 <br>
 <code>
-$gpios = [<br>
-    'Gpio 0' => 0,<br>
-    'Gpio 1' => 1,<br>
-    'Gpio 4' => 4,<br>
-    'Gpio 6' => 6<br>
+$gpios = [
+    'Gpio 0' => 0,
+    'Gpio 1' => 1,
+    'Gpio 4' => 4,
+    'Gpio 6' => 6
 ];
 </code>
 <br>
-
+<br>
 ![alt text](images/screen-shot.png)
