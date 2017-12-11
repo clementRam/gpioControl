@@ -1,4 +1,4 @@
-<!-- All gpio 'name' => ID   -->
+<!-- All gpio 'label' => ID   -->
 <?php
 $gpios = [
     'Gpio 0' => 0,
