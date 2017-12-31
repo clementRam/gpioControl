@@ -41,12 +41,20 @@ function gpio_selected(_this) {
 
 $(function () {
 
+    //Ajax to display each gpio label and state on load
+    $.ajax({
+        url: "onLoad.php"
+    }).done(function (resp) {
+        $("#gpio-list").html(resp);
+    });
+
+    //change state on click li
     $('li').click(function () {
         var element = $(this).find('input');
         gpio_selected(element);
         if (element.prop('checked')) {
             element.prop('checked', false);
-        }else{
+        } else {
             element.prop('checked', true);
         }
     });
