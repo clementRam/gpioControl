@@ -5,6 +5,7 @@ $gpios = [
     'Gpio 4' => 4,
     'Gpio 6' => 6
 ];
+
 $html = '';
 
 foreach ($gpios as $name => $gpio) {

@@ -1,6 +1,4 @@
-<h1>Simple interface to control Raspberry Gpio using ajax.</h1> 
-
-<h5>Just have to edit index.php, then add label and gpio number:</h5>
+Edit onload.php
 <code>
 $gpios = [
     'Gpio 0' => 0,
@@ -9,7 +7,3 @@ $gpios = [
     'Gpio 6' => 6
 ];
 </code>
-<br>
-<br>
-
-![alt text](images/screen-shot.png)
